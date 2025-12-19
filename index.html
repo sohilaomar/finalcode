@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSCE450201 - Design of Web-based Systems</title>
+  <link rel="stylesheet" href="stylefinal.css">
+</head>
+<body>
+  <div id="root">
+    <header>
+      <h1>CSCE450201 - Design of Web-based Systems</h1>
+      <p>Instructor: Islam Tharwat Abdel Halim, Assistant Professor</p>
+      <p>Email: <a href="mailto:islamtharwat@aucegypt.edu">islamtharwat@aucegypt.edu</a> | Room: SSE 2141 | Office Hours: MR 10:00-11:00am + by email</p>
+    </header>
+
+    <main>
+      <section id="course-description">
+        <h2>Course Description</h2>
+        <ul>
+          <li>Introduction to the Web & n-tier Client-Server Architecture</li>
+          <li>Git & Version Control Basics</li>
+          <li>HTML & CSS Fundamentals</li>
+          <li>JavaScript Core Concepts: DOM, Events, Callbacks</li>
+          <li>React Routing & State Management</li>
+          <li>APIs & Promises (REST, Fetch API, Async/Await)</li>
+          <li>Backend Integration</li>
+          <li>Introduction to XML</li>
+          <li>Databases: SQL vs NoSQL, MongoDB</li>
+          <li>Database Schema Design & CRUD Operations</li>
+          <li>User Authentication (OAuth, JWT, Firebase Auth)</li>
+  
+        </ul>
+      </section>
+
+      <section id="registration">
+        <h2>Register for this Course</h2>
+        <div class="form-container">
+          <form id="course-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="First Last" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@aucegypt.edu" required>
+
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" placeholder="900xxxxxx" required>
+
+            <button type="submit">Register Now</button>
+          </form>
+
+          <!-- Messages -->
+          <div id="messages">
+            <p class="error" id="error"></p>
+            <p class="success" id="success"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="final.js" type="module"></script>
+</body>
+</html>
